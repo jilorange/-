@@ -1,0 +1,13 @@
+# 第 1 天 20181031
+## css
+``` css
+background-color: rgba(0,0,0,0.3)/*设置背景透明度（0，0，0为rgb值，最后的0.3为alpha值，值在0~1之间）*/
+```
+
+``` css
+border-width:1px;
+border-color:red;
+border-style:dashed;
+border:0; /*去掉所有边框*/
+```
+也可以合起来写作border: 1px solid red;
