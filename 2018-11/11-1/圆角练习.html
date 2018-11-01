@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>圆角练习</title>
+    <style>
+        .radius {
+           text-align:center;
+            /*居中：方法一，当子元素是行内或行内块元素时*/
+            /*方法二：給定宽度，margin:0 auto;*/
+        }
+        .radius a {
+            width: 172px;
+            height: 172px;
+            background-color: #eee;
+            color: deeppink;
+            display: inline-block;
+            margin: 20px;
+            border-radius: 50%;
+            text-decoration: none;
+            text-align: center;
+            line-height: 172px;
+        }
+        .radius a:hover{
+            background-color: deeppink;
+            color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="radius">
+        <a href="#">这是一个链接</a>
+        <a href="#">这是一个链接</a>
+        <a href="#">这是一个链接</a>
+        <a href="#">这是一个链接</a>
+    </div>
+</body>
+</html>
