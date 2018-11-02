@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .top {
+            margin: 0 auto;
+            width: 830px;
+            height: 200px;
+            background-color: deepskyblue;
+        }
+        .top li {
+            width: 200px;
+            height: 200px;
+            background-color: deeppink;
+            float: left;
+            margin-right: 10px;
+            list-style: none;
+        }
+        .top .four {/*如果直接.four 则权重小于 .top li ，样式就不会起作用了*/
+            margin-right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <ul>
+            <li>1234</li>
+            <li>1234</li>
+            <li>1234</li>
+            <li class="four">1234</li>
+        </ul>
+    </div>
+</body>
+</html>
