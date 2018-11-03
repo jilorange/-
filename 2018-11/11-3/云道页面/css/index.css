@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fafafa;
+}
+li {
+    list-style: none;
+}
+/*顶部导航栏开始啦*/
+.header {
+    height: 100px;
+    background-color: #fff;
+}
+.inner {
+    width: 1200px;
+    height: 100px;
+    /*background-color: pink;*/
+    margin: 0 auto;
+    line-height: 100px;
+}
+.logo {
+    float: left;
+}
+.nav {
+    float: right;
+}
+.nav li {
+    float: left;
+    margin: 0 20px;
+}
+.nav li a {
+    text-decoration: none;
+    color: #333;
+}
+.nav li a:hover {
+    color: #2288f6;
+}
+/*顶部导航栏结束啦*/
+/*banner开始啦*/
+.banner {
+    height: 620px;
+    background: url(../images/banner.jpg) no-repeat top center;
+}
+/*banner结束啦*/
+.service {
+    width: 1055px;
+    height: 660px;
+    margin: 75px auto 0;
+    /*background-color: pink;*/
+}
+.service-hd {
+    border-top: 1px solid #ccc;
+    margin: 0 25px;
+}
