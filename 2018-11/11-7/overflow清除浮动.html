@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动-overflow</title>
+    <style>
+        .father {
+            width: 300px;
+            border: 2px solid red;
+            overflow: hidden;
+            /*给父亲添加 overflow:hidden*/
+        }
+        .big {
+            width: 150px;
+            height: 150px;
+            background-color: pink;
+            float: left;
+        }
+        .small {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            float: left;
+        }
+        .footer {
+            width: 500px;
+            height: 200px;
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+<div class="father">
+    <div class="big"></div>
+    <div class="small"></div>
+</div>
+<div class="footer">
+
+</div>
+</body>
+</html>

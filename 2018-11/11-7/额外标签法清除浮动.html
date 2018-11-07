@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动-额外标签法</title>
+    <style>
+        .father {
+            width: 300px;
+            border: 2px solid red;
+        }
+        .big {
+            width: 150px;
+            height: 150px;
+            background-color: pink;
+            float: left;
+        }
+        .small {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            float: left;
+        }
+        .footer {
+            width: 500px;
+            height: 200px;
+            background-color: gray;
+        }
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="big"></div>
+        <div class="small"></div>
+        <div class="clear"></div>
+        <!--最后一个浮动标签后，新添加一个标签，清除浮动-->
+    </div>
+    <div class="footer">
+
+    </div>
+</body>
+</html>
